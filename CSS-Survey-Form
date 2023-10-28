@@ -1,0 +1,74 @@
+body {
+font-family: Poppins-Regular;
+padding: 10px;
+height: 100%;
+background-image: url(https://cdn.pixabay.com/photo/2020/02/24/18/05/background-4876988_1280.jpg);
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+
+   
+}
+
+.box {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  max-width: 500px;
+
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-family: Poppins-Medium;
+  font-weight: bold;
+  
+
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #708090;
+  border-color: white;
+  min-width: 3px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Pesquisa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <main>
+    <h1 id="title">Formulário de Pesquisa</h1>
+    <p id="description">Obrigado por nos ajudar a melhorar nossa plataforma</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name">Nome: <input id="name" name="name" type="text" placeholder="Digite seu nome" required /></label>
+        <label id="name-label"> Sobrenome: <input name="name-label" type="text" placeholder="Digite seu sobrenome" required /></label>
+        <label id="email-label">Email: <input name="email-label" type="email" placeholder="Digite seu email" required /></label>
+        <label for="email">Confirme seu email: <input id="email" name="email" type="email" placeholder="Confirme seu email" required /></label>
+        <label for="number"> Idade<input id="number" name="number" type="number" placeholder="Digite sua idade" min="16" max="120"></label>
+        <label id="number-label">Digite seu telefone para receber atualizações: (Opcional) <input name="age" type="number" value="number-label" placeholder="Digite seu DDD e telefone"></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Como você avalia nossos cursos?
+        <select id="dropdown">
+          <option value="1">Selecione</option>
+          <option value="2">Ótimo</option>
+          <option value="3">Bom</option>
+          <option value="4">Regular</option>
+          <option value="5">Insuficiente</option>
+        </select>
+        </fieldset>
+        </label>
+        <fieldset>
+  <label>Quais são suas áreas de interesse?</label>
+          <div>
+    <label for="front-end"><input id="front-end" type="checkbox" name="Front-End" class="inline" value="front-end" />Front-End</label>
+    <label for="back-end"><input id="back-end" type="checkbox" name="Back-End" class="inline" value="back-end" />Back-End</label>
+    <label for="desafios"><input id="desafios" type="checkbox" name="Desafios" class="inline" value="desafios" />Desafios</label>
+    <label for="outros"><input id="outros" type="checkbox" name="outros" class="inline" value="outros" />Outros</label>
+        </div>
+        </fieldset>
+        <fieldset>
+          <label>Você recomendaria nossos cursos a um amigo?</label>
+         <label id="sim"><input type="radio" name="Avaliação" class="inline"  value="sim" checked/>Sim</label>
+         <label id="talvez"><input type="radio" name="Avaliação" class="inline" value="talvez" />Talvez</label>
+         <label id="nao"><input type="radio" name="Avaliação" class="inline" value="nao" />Não</label>
+        </fieldset>
+        <fieldset>
+          <label for="comentario">Algum comentário ou sugestão?
+          <textarea id="comentario" name="Comentario" rows="4" cols="35" placeholder="Digite uma sugestão..."></textarea>
+          </label>
+        </fieldset>
+        <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+        <input id="submit" type="submit" value="Enviar" />
+    </main>
+  </body>
+  </form>
+  </div>
+</html>
